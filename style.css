@@ -213,9 +213,6 @@ h1 {
 
 .info-grid {
     margin-top: 28px;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
 }
 
 .info-box {
@@ -358,8 +355,8 @@ h1 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #f54444;
-    box-shadow: 0 0 0 0 rgba(245, 68, 68, 0.55);
+    background: #44f54d;
+    box-shadow: 0 0 0 0 rgba(68, 245, 92, 0.55);
     animation: heartbeat 1.5s ease-out infinite;
 }
 
@@ -441,7 +438,7 @@ h1 {
 
 @keyframes heartbeat {
     0% {
-        box-shadow: 0 0 0 0 rgba(245, 68, 68, 0.55);
+        box-shadow: 0 0 0 0 rgba(104, 245, 68, 0.55);
     }
     70% {
         box-shadow: 0 0 0 14px rgba(245, 68, 68, 0);
